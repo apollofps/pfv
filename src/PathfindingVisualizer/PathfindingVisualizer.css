@@ -1,0 +1,29 @@
+
+
+.grid-container {
+  margin: 10% auto;
+}
+
+.grid {
+  white-space: pre;
+}
+
+button {
+  margin: 2px;
+}
+ .btn{
+    border-color: rgb(0, 0, 0);
+    font-style: italic;
+    background-color: black;
+    font-style: Comfortaa;
+ }
+.nav-item{
+   font-weight: 500;
+}
+.navbar{
+  justify-content: center;
+}
+
+.btn-light{
+    text-emphasis-color: white;
+}
