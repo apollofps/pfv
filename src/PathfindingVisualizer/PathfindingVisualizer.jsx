@@ -19,8 +19,8 @@ export default class PathfindingVisualizer extends Component {
       mouseIsPressed: false,
       ROW_COUNT: 20,
       COLUMN_COUNT: 40,
-      MOBILE_ROW_COUNT: 10,
-      MOBILE_COLUMN_COUNT: 20,
+      MOBILE_ROW_COUNT: 15,
+      MOBILE_COLUMN_COUNT: 30,
       isRunning: false,
       isStartNode: false,
       isFinishNode: false,
@@ -499,14 +499,14 @@ export default class PathfindingVisualizer extends Component {
             type="button"
             className="btn btn-light"
             onClick={() => this.toggleView()}>
-            Mobile View
+            Small Grid
           </button>
         ) : (
           <button
             type="button"
             className="btn btn-dark"
             onClick={() => this.toggleView()}>
-            Desktop View
+            Big Grid
           </button>
         )}
       </div>
