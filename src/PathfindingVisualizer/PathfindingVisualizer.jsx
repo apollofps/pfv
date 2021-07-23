@@ -20,7 +20,7 @@ export default class PathfindingVisualizer extends Component {
       ROW_COUNT: 20,
       COLUMN_COUNT: 40,
       MOBILE_ROW_COUNT: 15,
-      MOBILE_COLUMN_COUNT: 30,
+      MOBILE_COLUMN_COUNT: 29,
       isRunning: false,
       isStartNode: false,
       isFinishNode: false,
